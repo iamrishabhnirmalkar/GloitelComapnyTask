@@ -20,8 +20,8 @@ function Home() {
       <KeyFeature />
       <Banner />
       <Whoweare />
-      <MeetDoctors />
-      <Testimonials />
+      {/* <MeetDoctors />
+      <Testimonials /> */}
       <Contectsections />
     </>
   );
