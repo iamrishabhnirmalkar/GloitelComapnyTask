@@ -1,4 +1,5 @@
 import React from "react";
+import Img from "/images/image04.png";
 
 function Contectsections() {
   return (
@@ -25,7 +26,9 @@ function Contectsections() {
         </div>
         {/* Main content */}
         <div className="flex justify-between px-20">
-          <div>Left</div>
+          <div className="w-1/2 h-1/2">
+            <img src={Img} alt="" />
+          </div>
           <div>
             <form action="">
               <div className="grid grid-cols-2 gap-3">
